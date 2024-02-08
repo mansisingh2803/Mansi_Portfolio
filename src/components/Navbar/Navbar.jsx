@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './Navbar.module.css';
-import { getImageUrl } from '../utils';
+import { getImageUrl } from '../../utils';
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
@@ -26,7 +26,7 @@ export const Navbar = () => {
                         <a href='#projects'>Projects</a>
                     </li>
                     <li>
-                        <a href='#about'>Contact</a>
+                        <a href='#contact'>Contact</a>
                     </li>
                 </ul>
             </div>
